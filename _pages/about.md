@@ -5,7 +5,7 @@ permalink: /
 subtitle: Academic Master Student, Fudan University
 
 profile:
-  align: right
+  align: left
   image: slj.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
@@ -27,4 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm currently a third-year Academic Master sutdent in <a href='https://faet.fudan.edu.cn/'>Academy for Engineering & Technology</a>, also with <a href='https://miccai.fudan.edu.cn/'>Shanghai Key Laboratory of Medical Image Computing and Computer Assisted Intervention</a>, Fudan University, supervised by <a href='https://www.researchgate.net/profile/Xinrong-Chen-2'>Prof. CHEN, Xinrong</a>. Previously, I obtain Bachelor degree of Machanical Engineering from Tongji University, graduated as Outstanding Undergraduate of Shanghai. My research interests include 3D Human Reconstruction, 3D Perception and Navigation in Endoscopy.
+I'm currently a third-year Academic Master sutdent in <a href='https://faet.fudan.edu.cn/'>Academy for Engineering & Technology</a>, also with <a href='https://miccai.fudan.edu.cn/'>Shanghai Key Laboratory of Medical Image Computing and Computer Assisted Intervention</a>, Fudan University, supervised by <a href='https://www.researchgate.net/profile/Xinrong-Chen-2'>Prof. CHEN, Xinrong</a>. Previously, I obtain Bachelor degree of Machanical Engineering from Tongji University, graduated as **Outstanding Undergraduate of Shanghai**. My research interests include 3D Human Reconstruction(ICIP'24, IEEE JSEN'24), 3D Perception and Navigation in Endoscopy(PRICAI'24, ICRA'25). I have been reviewers in ACM Conference on Multimedia 2023&2024, IEEE Transactions on Instrumentation and Measurements. 
