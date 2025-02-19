@@ -9,12 +9,12 @@ profile:
   image: slj.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>1110, Kangquan Library, Fudan University</p>
-    <p>Dongan Road No.130, Xuhui District</p>
-    <p>Shanghai, China</p>
+    <p>Room 1110, Kangquan Library</p>
+    <p>No.130 Dongan Road, Fudan Univ.</p>
+    <p>Xuhui, Shanghai, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
