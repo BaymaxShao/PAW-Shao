@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Academic Master Student, Fudan University
+subtitle: Master Student, Fudan University
 
 profile:
   align: left
