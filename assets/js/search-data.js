@@ -63,7 +63,10 @@ ninja.data = [{
           window.location.href = "/al-folio/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-the-website-is-constructing",
+    },{id: "news-i-have-one-paper-about-real-time-ego-motion-tracking-for-various-endoscopy-accepted-by-icra-2025",
+          title: 'I have ONE paper about Real-time Ego-motion Tracking for Various Endoscopy, accepted by...',
+          description: "",
+          section: "News",},{id: "news-the-website-is-constructing",
           title: 'The Website is constructing.',
           description: "",
           section: "News",},{id: "projects-project-1",
