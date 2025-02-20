@@ -65,7 +65,13 @@
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
           {% endif %}
+        {% comment %} Here is the revision {% endcomment %}
+        {% if entry.corresponding contains author_last_name %}
+          {% if entry.corresponding contains author.first %}
+            {% assign author_is_ca = true %}
+          {% endif %}
         {%- endif -%}
+        {% comment %} Here is the revision {% endcomment %}
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -82,11 +88,19 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
+          <b>
             {{- author.first }}
             {{ author_last_html -}}
-          </em>
+          </b>
         {%- else -%}
+        {% comment %} Here is the revision {% endcomment %}
+          {% if author_is_ca %}
+            <em>
+              {{- author.first }}
+              {{ author_last_html -}}
+            </em>
+          {% endif %}
+        {% comment %} Here is the revision {% endcomment %}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}

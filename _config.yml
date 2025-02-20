@@ -256,8 +256,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: ["Notice"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -321,6 +321,7 @@ filtered_bibtex_keywords:
     supp,
     video,
     website,
+    corresponding
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
