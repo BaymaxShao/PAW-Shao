@@ -66,13 +66,13 @@
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
-        {% comment %} Here is the revision {% endcomment %}
+        <!--Here is the revision -->
         {% if entry.corresponding contains author_last_name %}
           {% if entry.corresponding contains author.first %}
             {% assign author_is_ca = true %}
           {% endif %}
         {%- endif -%}
-        {% comment %} Here is the revision {% endcomment %}
+        <!--Here is the revision -->
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -94,38 +94,31 @@
             {{ author_last_html -}}
           </b>
         {%- else -%}
-        {% comment %} Here is the revision {% endcomment %}
-          {% if author_is_ca %}
+        <!--Here is the revision -->
+          {%- if author_is_ca -%}
             {%- if coauthor_url -%}
               <a href="{{ coauthor_url }}">
                 {{- author.first }}
                 {{ author_last_html -}}
               </a>
               &ast;
-            {% else %}
+            {%- else -%}
               {{- author.first }}
               {{ author_last_html -}}
               &ast;
             {%- endif -%}
-        {% comment %} Here is the revision {% endcomment %}
-          {% comment %} {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a> {% endcomment %}
+        <!--Here is the revision -->
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{ coauthor_url }}">
                 {{- author.first }}
                 {{ author_last_html -}}
               </a>
-            {% else %}
+            {%- else -%}
               {{- author.first }}
               {{ author_last_html -}}
             {%- endif -%}
-            {% comment %} {{- author.first }}
-            {{ author_last_html -}} {% endcomment %}
-          {% endif %}
+          {%- endif -%}
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
