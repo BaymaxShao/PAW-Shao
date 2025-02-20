@@ -96,20 +96,35 @@
         {%- else -%}
         {% comment %} Here is the revision {% endcomment %}
           {% if author_is_ca %}
-            <em>
+            {%- if coauthor_url -%}
+              <a href="{{ coauthor_url }}">
+                {{- author.first }}
+                {{ author_last_html -}}
+              </a>
+              &ast;
+            {% else %}
               {{- author.first }}
               {{ author_last_html -}}
-            </em>
-          {% endif %}
+              &ast;
+            {%- endif -%}
         {% comment %} Here is the revision {% endcomment %}
-          {%- if coauthor_url -%}
+          {% comment %} {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
               {{ author_last_html -}}
-            </a>
+            </a> {% endcomment %}
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
+            {%- if coauthor_url -%}
+              <a href="{{ coauthor_url }}">
+                {{- author.first }}
+                {{ author_last_html -}}
+              </a>
+            {% else %}
+              {{- author.first }}
+              {{ author_last_html -}}
+            {%- endif -%}
+            {% comment %} {{- author.first }}
+            {{ author_last_html -}} {% endcomment %}
           {% endif %}
         {%- endif -%}
       {% endfor %}
