@@ -65,6 +65,7 @@
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
           {% endif %}
+        {%- endif -%}
         {% comment %} Here is the revision {% endcomment %}
         {% if entry.corresponding contains author_last_name %}
           {% if entry.corresponding contains author.first %}
