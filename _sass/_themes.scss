@@ -5,7 +5,7 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #ecd97e;
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
@@ -36,7 +36,7 @@
   --global-warning-block: #e7c000;
   --global-warning-block-bg: #fff8d8;
   --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
+  --global-warning-block-title: #f6e695;
   --global-danger-block: #c00;
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
