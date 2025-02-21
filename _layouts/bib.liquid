@@ -67,15 +67,6 @@
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
-        <!--Here is the revision -->
-        {%- for ca in entry.corresponding_array limit: author_array_limit -%}
-          {%- assign ca_last_name = ca.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-          {%- assign ca_last_html = ca.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-          {% if ca_last_name == author_last_name %}
-              {% assign author_is_ca = true %}
-          {%- endif -%}
-        {% endfor %}
-        <!--Here is the revision -->
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -107,8 +98,6 @@
             {{ author_last_html -}}
           {%- endif -%}
         {%- endif -%}
-        <sup>@</sup>
-        {%- if author_is_ca %}<sup>@</sup>{% endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
