@@ -105,8 +105,8 @@
             {{ author_last_html -}}
           {%- endif -%}
         {%- endif -%}
-        {%- if author_is_cf -%}&ast;{%- endif -%}
-        {%- if author_is_ca -%}<sup>&commat;</sup>{%- endif -%}
+        {%- if author_is_cf -%}*{%- endif -%}
+        {%- if author_is_ca -%}<sup>@</sup>{%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
