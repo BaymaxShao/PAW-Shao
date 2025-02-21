@@ -69,8 +69,10 @@
         <!--Here is the revision -->
         {% if entry.corresponding contains author %}
             {% assign author_is_ca = true %}
-            {% assign ca_signal = * %}
         {%- endif -%}
+        {% if entry.cofirst contains author %}
+          {% assign author_is_cf = true %}
+      {%- endif -%}
         <!--Here is the revision -->
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
@@ -93,20 +95,18 @@
             {{ author_last_html -}}
           </b>
         {%- else -%}
-        <!--Here is the revision -->
+        <!--Here is the revision -->    
           {%- if author_is_ca -%}
             {%- if coauthor_url -%}
               <a href="{{ coauthor_url }}">
                 {{- author.first }}
-                {{ author_last_html }}
-                {{ ca_signal  -}}
-              </a>
+                {{ author_last_html -}}
+              </a> <span>&ast;</span>
             {%- else -%}
               {{- author.first }}
-              {{ author_last_html }}
-              {{ ca_signal  -}}
+              {{ author_last_html -}}
+              <span>&ast;</span>
             {%- endif -%}
-        <!--Here is the revision -->
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{ coauthor_url }}">
@@ -118,6 +118,7 @@
               {{ author_last_html -}}
             {%- endif -%}
           {%- endif -%}
+        <!--Here is the revision -->
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
