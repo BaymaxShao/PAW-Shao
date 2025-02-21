@@ -101,23 +101,12 @@
               {{ author_last_html -}}
             </a>
             <sup>@</sup>
-          {%- if coauthor_url and author_is_cf -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a>
-            *
-          {%- if coauthor_url and author_is_cf and author_is_ca -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a>
-            *<sup>@</sup>
           {%- else -%}
             {{- author.first }}
             {{ author_last_html -}}
           {%- endif -%}
         {%- endif -%}
+        {%- if author_is_ca %}<sup>@</sup>{% endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
