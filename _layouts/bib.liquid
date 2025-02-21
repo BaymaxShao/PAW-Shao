@@ -94,17 +94,13 @@
             {{- author.first }}
             {{ author_last_html -}}
           </b>
-          111
-          {%- if author_is_cf %}*{% endif -%}
-          {%- if author_is_ca %}<sup>@</sup>{% endif -%}
         {%- else -%}    
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
               {{ author_last_html -}}
             </a>
-            1&ast;
-            {%- if author_is_cf %}&ast;{% endif -%}
+            *&ast;
             {%- if author_is_cf %}*{% endif -%}
             {%- if author_is_ca %}<sup>@</sup>{% endif -%}
           {%- else -%}
