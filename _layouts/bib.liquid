@@ -94,20 +94,26 @@
             {{- author.first }}
             {{ author_last_html -}}
           </b>
+          111
+          {%- if author_is_cf %}*{% endif -%}
+          {%- if author_is_ca %}<sup>@</sup>{% endif -%}
         {%- else -%}    
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
               {{ author_last_html -}}
             </a>
-            &ast;
+            1&ast;
+            {%- if author_is_cf %}&ast;{% endif -%}
+            {%- if author_is_cf %}*{% endif -%}
+            {%- if author_is_ca %}<sup>@</sup>{% endif -%}
           {%- else -%}
             {{- author.first }}
             {{ author_last_html -}}
+            {%- if author_is_cf %}*{% endif -%}
+            {%- if author_is_ca %}<sup>@</sup>{% endif -%}
           {%- endif -%}
         {%- endif -%}
-        {%- if author_is_cf -%}*{%- endif -%}
-        {%- if author_is_ca -%}<sup>@</sup>{%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
