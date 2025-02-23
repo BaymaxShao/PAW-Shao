@@ -30,19 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio/cv/";
           },
-        },{id: "post-new-academic-website-constructed",
-      
-        title: "New Academic Website Constructed!",
-      
-      description: "My New Website for Academic Records",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/al-folio/blog/2025/formatting-and-links/";
-        
-      },
-    },{id: "news-one-paper-about-real-time-ego-motion-tracking-of-endoscopy-has-been-accepted-by-icra-2025-sparkles",
-          title: 'ONE paper about Real-time Ego-motion Tracking of Endoscopy has been accepted by ICRA...',
+        },{id: "news-one-paper-about-real-time-ego-motion-tracking-of-endoscopy-has-been-accepted-by-amp-lt-p-style-quot-color-purple-quot-amp-gt-icra-2025-amp-lt-p-amp-gt-sparkles",
+          title: 'ONE paper about Real-time Ego-motion Tracking of Endoscopy has been accepted by &amp;amp;lt;p...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
