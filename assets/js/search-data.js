@@ -52,8 +52,8 @@ ninja.data = [{
           window.location.href = "/al-folio/blog/2025/released/";
         
       },
-    },{id: "news-one-paper-about-real-time-ego-motion-tracking-of-endoscopy-has-been-accepted-by-amp-lt-p-style-quot-color-red-quot-amp-gt-icra-2025-amp-lt-p-amp-gt-sparkles",
-          title: 'ONE paper about Real-time Ego-motion Tracking of Endoscopy has been accepted by &amp;amp;lt;p...',
+    },{id: "news-one-paper-about-real-time-ego-motion-tracking-of-endoscopy-has-been-accepted-by-icra-2025-sparkles",
+          title: 'ONE paper about Real-time Ego-motion Tracking of Endoscopy has been accepted by ICRA...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
