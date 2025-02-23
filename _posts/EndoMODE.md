@@ -1,0 +1,82 @@
+---
+layout: post
+title: New Academic Website Constructed!
+date: 2025-02-19 16:40:16
+description: My New Website for Academic Records
+tags: Pub Timeline
+categories: Experience
+---
+## Background
+
+Last Dance as a master student.
+
+I hope this post can also solve some confusion on the way of others.
+
+Subject: SLAM in Endoscopy
+
+## Timeline & Instructions：
+
+2024.10.28 Submitted, Awaiting ADM Processing
+
+(No more than **8 pages** including bib, **institution e-mail** required, **Double-blinded**)
+
+2024.10.29 Awaiting Co-EiC Assignment (EiC: H. Liu)
+
+2024.10.30 Awaiting AE Assignment
+
+2024.11.04 Assigning Reviewers
+
+2024.11.08 Assign additional Reviewers
+
+2024.11.23 Assigning Reviewers
+
+2024.11.24 Assign additional Reviewers
+
+(Each change denotes that **new invitations** have been sent.)
+
+2024.11.25 Awaiting Review Scores
+
+(Enough reviewers for reviewing)
+
+2024.12.27 Awaiting AE Recommendation
+
+2024.12.30 Awaiting EIC Decision
+
+2024.12.31 Reject & Resubmit (3 reviewers - 5+2+4comments)
+
+(RR=Major, to control reviewing period and accept rate, as the resubmitted manuscript will be seemed as a new submit.)
+
+2025.01.07 Resubmitted, Awaiting ADM Processing
+
+2025.01.09 Inviting reviewers (EiC: H. Liu)
+
+2025.01.10 Waiting for Review assignment
+
+2025.01.11 Awaiting Reviewer Scores
+
+2025.01.22 Awaiting AE Recommendation
+
+2025.01.25 Awaiting Reviewer Scores
+
+(AAR will appear when 2 reviewers feedback the comments, if AE finds some reviewers haven't give the reviews, the status will be set back to ARS)
+
+2025.02.10 Awaiting AE Recommendation, Awaiting Co-EiC Decision
+
+2025.02.12 Major Revision3 reviewers-0+0+1 comment
+
+(Sorry that I don't understand)
+
+2025.02.13 Revised, Inviting reviewers, Waiting for Reviews
+
+***Still waiting...***
+
+## Afterwork:
+
+This work has been rejected by JBHI, CMPB, TASE, and TII since April, 2024.
+
+Rethink, Revise, Supplement
+
+Although with luck this time, Real 'pregnancy' for 10 months
+
+*Patience and Perseverance can be the most powerful weapon for research.*
+
