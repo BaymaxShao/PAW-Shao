@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio/cv/";
           },
-        },{id: "post-new-academic-website-constructed",
+        },{id: "post-experience-of-publication-on-ieee-transactions-on-industrial-informatics-updating",
       
-        title: "New Academic Website Constructed!",
+        title: "Experience of Publication on IEEE Transactions on Industrial Informatics (Updating)",
       
-      description: "My New Website for Academic Records",
+      description: "Timeline, Tips and some Thoughts for this publication experience.",
       section: "Posts",
       handler: () => {
         
@@ -52,8 +52,8 @@ ninja.data = [{
           window.location.href = "/al-folio/blog/2025/released/";
         
       },
-    },{id: "news-one-paper-about-real-time-ego-motion-tracking-of-endoscopy-has-been-accepted-by-icra-2025-sparkles",
-          title: 'ONE paper about Real-time Ego-motion Tracking of Endoscopy has been accepted by ICRA...',
+    },{id: "news-one-paper-about-real-time-ego-motion-tracking-of-endoscopy-has-been-accepted-by-amp-lt-p-style-quot-color-red-quot-amp-gt-icra-2025-amp-lt-p-amp-gt-sparkles",
+          title: 'ONE paper about Real-time Ego-motion Tracking of Endoscopy has been accepted by &amp;amp;lt;p...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
