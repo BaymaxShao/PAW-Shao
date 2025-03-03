@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Master Student, Fudan University
+subtitle: Master Student, IEEE Student Member
 
 profile:
   align: left
