@@ -55,7 +55,7 @@ ninja.data = [{
     },{id: "news-one-paper-about-real-time-ego-motion-tracking-of-endoscopy-has-been-accepted-by-icra-2025-sparkles",
           title: 'ONE paper about Real-time Ego-motion Tracking of Endoscopy has been accepted by ICRA...',
           description: "",
-          section: "News",},{id: "news-one-paper-about-monocular-depth-estimation-for-endoscopy-has-been-submitted-to-iros-2025-code-pray",
+          section: "News",},{id: "news-one-paper-about-monocular-depth-estimation-for-endoscopy-has-been-submitted-to-iros-2025-pray-code",
           title: 'ONE paper about Monocular Depth Estimation for Endoscopy has been submitted to IROS...',
           description: "",
           section: "News",},{id: "projects-project-1",
