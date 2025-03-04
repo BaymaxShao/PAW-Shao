@@ -6,7 +6,7 @@ subtitle: Master Student, IEEE Student Member
 
 profile:
   align: left
-  image: slj.jpg
+  image: slj2.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Room 1110, Kangquan Library</p>
