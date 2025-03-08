@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
+        },{id: "nav-curriculum-vitae",
+          title: "Curriculum Vitae",
           description: "",
           section: "Navigation",
           handler: () => {
